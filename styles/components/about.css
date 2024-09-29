@@ -13,6 +13,7 @@
 .about__title {
     font-size: var(--size-base);
     color: var(--clr-dark);
+    text-transform: uppercase;
 }
 
 .about__description {
@@ -28,6 +29,7 @@
 .about__subtitle {
     font-size: var(--size-sm);
     color: var(--clr-slate400);
+    text-transform: capitalize;
 }
 
 .about__ul-container {
