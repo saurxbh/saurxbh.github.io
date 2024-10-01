@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
     <title>Dev Server</title>
   </head>
@@ -145,7 +146,51 @@
           </div>
           </div>      
       </section>
-      <section></section>
+      <section class="work container section">
+        <h2 class="work__title">Projects</h2>
+        <p class="work__description">Following is some of the stuff I have built. I like playing around with different 
+          technologies and putting those to use in order to make exciting utilities. Just like any other skill, I believe
+          coding is an expertise best honed by continuously practising it. These projects speak to my ability of deftly
+          wielding this skill.</p>
+        <div class="work__container">
+          <div class="work__project-card">
+            <!-- Project 1 -->
+            <div class="work__img-wrapper"><img src="/products-store.png" alt="Products Store"/></div>
+            <div class="work__content">
+              <h3 class="work__title">Products Store</h3>
+              <p class="work__description">This full-stack web application allows users to perform full CRUD operations (Create, Read, Update, Delete)
+                for managing product data. The front-end is built with React.js, while the back-end uses Express and Node.js to
+                create a RESTful API, with MongoDB for data storage. I also built a fully-responsive UI that leverages React hooks and
+                state management for dynamic UI updates.</p>
+              <button class="btn"><i class="fa fa-github"></i> GitHub</button>
+            </div>
+          </div>
+          <div class="work__project-card">
+            <!-- Project 2 -->
+            <div class="work__img-wrapper"><img src="/movies-review.png" alt="Movies Review"/></div>
+            <div class="work__content">
+              <h3 class="work__title">Movies Review</h3>
+              <p class="work__description">This is a full-stack web application built using Java Spring Boot (backend), React (frontend), MongoDB (database), 
+                and Axios for HTTP requests. I added features that lets you the trailer of a movie in a media player, ans allows you to post reviews.</p>
+              <button class="btn"><i class="fa fa-github"></i> GitHub</button>
+            </div>
+          </div>
+          <div class="work__project-card">
+            <!-- Project 3 -->
+            <div class="work__img-wrapper"><img src="/crm-portal.png" alt="CRM Portal"/></div>
+            <div class="work__content">
+              <h3 class="work__title">CRM Portal</h3>
+              <p class="work__description">This project is a CRM (Customer Relationship Management) application built using Python, Django, and MySQL. 
+                It provides full CRUD (Create, Read, Update, Delete) functionalities for managing customer data. The project also includes a Django 
+                superuser interface for admin-level management. The web app ensures a streamlined and efficient way to handle customer data.</p>
+              <button class="btn"><i class="fa fa-github"></i> GitHub</button>
+            </div>
+          </div>
+          <div class="work__project-card"></div>
+          <div class="work__project-card"></div>
+          <div class="work__project-card"></div>
+        </div>
+      </section>
       <section></section>
     </main>
     <footer></footer>
