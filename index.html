@@ -10,10 +10,11 @@
   </head>
   <body>
     <header class="header container">
+      <div>Saurabh</div>
       <nav>
         <ul class="header__menu">
           <li><a class="header__link" href="#about">About</a></li>
-          <li><a class="header__link" href="#featured">Work</a></li>
+          <li><a class="header__link" href="#work">Work</a></li>
           <li><a class="header__link" href="#contact">Contact</a></li>
           <li class="header__line"></li>
           <li>
@@ -42,11 +43,11 @@
         <p class="hero__description">A <strong>keen learner</strong> with an unquenchable thirst for knowledge, a <strong>full stack developer</strong>, and a <strong>curious soul</strong>
           on a path to self-improvement.
         </p>
-        <a class="hero__btn btn" href="#">Reach Out</a>
+        <a class="hero__btn btn" href="#contact">Reach Out</a>
       </section>
       <section class="about container section">
         <div class="about__content">
-          <h2 class="about__title">About Me</h2>
+          <h2 class="about__title" id="about">About Me</h2>
           <p class="about__description">Hey there! I'm Saurabh. I am a <strong>Software Developer</strong>
             based out of Jersey City, NJ. That't right. Alfred Hitchcock
             in a fez. Garden State FTW!
@@ -81,7 +82,7 @@
           </div>
         </div>
         <div class="about__img-wrapper">
-          <img class="about__image" src="./profile.jpg" alt="Profile Picture">
+          <img class="about__img" src="./profile.jpg" alt="Profile Picture">
         </div>
       </section>
       <section class="timeline container section">
@@ -147,32 +148,34 @@
           </div>      
       </section>
       <section class="work container section">
-        <h2 class="work__title">Projects</h2>
-        <p class="work__description">Following is some of the stuff I have built. I like playing around with different 
-          technologies and putting those to use in order to make exciting utilities. Just like any other skill, I believe
-          coding is an expertise best honed by continuously practising it. These projects speak to my ability of deftly
-          wielding this skill.</p>
+        <div>
+          <h2 class="work__title" id="work">Projects</h2>
+          <p class="work__description">Following is some of the stuff I have built. I like playing around with different
+            technologies and putting those to use in order to make exciting utilities. Just like any other skill, I believe
+            coding is an expertise best honed by continuously practising it. These projects speak to my ability of deftly
+            wielding this skill.</p>
+        </div>
         <div class="work__container">
           <div class="work__project-card">
             <!-- Project 1 -->
             <div class="work__img-wrapper"><img src="/products-store.png" alt="Products Store"/></div>
             <div class="work__content">
               <h3 class="work__title">Products Store</h3>
-              <p class="work__description">This full-stack web application allows users to perform full CRUD operations (Create, Read, Update, Delete)
+              <p class="work__description">This full-stack web application allows users to perform full CRUD operations
                 for managing product data. The front-end is built with React.js, while the back-end uses Express and Node.js to
                 create a RESTful API, with MongoDB for data storage. I also built a fully-responsive UI that leverages React hooks and
                 state management for dynamic UI updates.</p>
-              <button class="btn"><i class="fa fa-github"></i> GitHub</button>
+                <a href="https://www.github.com/saurxbh/products-store" target="_blank" rel="noopener noreferrer"><button class="btn"><i class="fa fa-github"></i> GitHub</button></a>
             </div>
           </div>
           <div class="work__project-card">
             <!-- Project 2 -->
-            <div class="work__img-wrapper"><img src="/movies-review.png" alt="Movies Review"/></div>
+            <div class="work__img-wrapper right"><img src="/movies-review.png" alt="Movies Review"/></div>
             <div class="work__content">
               <h3 class="work__title">Movies Review</h3>
               <p class="work__description">This is a full-stack web application built using Java Spring Boot (backend), React (frontend), MongoDB (database), 
                 and Axios for HTTP requests. I added features that lets you the trailer of a movie in a media player, ans allows you to post reviews.</p>
-              <button class="btn"><i class="fa fa-github"></i> GitHub</button>
+                <a href="https://www.github.com/saurxbh/movies-review" target="_blank" rel="noopener noreferrer"><button class="btn"><i class="fa fa-github"></i> GitHub</button></a>
             </div>
           </div>
           <div class="work__project-card">
@@ -182,13 +185,28 @@
               <h3 class="work__title">CRM Portal</h3>
               <p class="work__description">This project is a CRM (Customer Relationship Management) application built using Python, Django, and MySQL. 
                 It provides full CRUD (Create, Read, Update, Delete) functionalities for managing customer data. The project also includes a Django 
-                superuser interface for admin-level management. The web app ensures a streamlined and efficient way to handle customer data.</p>
-              <button class="btn"><i class="fa fa-github"></i> GitHub</button>
+                superuser interface for admin-level management.</p>
+                <a href="https://www.github.com/saurxbh/crm-portal" target="_blank" rel="noopener noreferrer"><button class="btn"><i class="fa fa-github"></i> GitHub</button></a>
             </div>
           </div>
-          <div class="work__project-card"></div>
-          <div class="work__project-card"></div>
-          <div class="work__project-card"></div>
+          <div class="work__project-card">
+            <!-- Project 4 -->
+            <div class="work__img-wrapper right"><img src="/etch-a-sketch.png" alt="Etch-A-Sketch"/></div>
+            <div class="work__content">
+              <h3 class="work__title">Etch-A-Sketch</h3>
+              <p class="work__description">Browser version of something between a notepad and an etch-a-sketch. Excellent for practising DOM Manipulation.</p>
+              <a href="https://www.github.com/saurxbh/etch-a-sketch" target="_blank" rel="noopener noreferrer"><button class="btn"><i class="fa fa-github"></i> GitHub</button></a>
+            </div>
+          </div>
+          <div class="work__project-card">
+            <!-- Project 5 -->
+            <div class="work__img-wrapper"><img src="/calculator.png" alt="Etch-A-Sketch"/></div>
+            <div class="work__content">
+              <h3 class="work__title">Calculator</h3>
+              <p class="work__description">Simple Calculator app using HTML, CSS and JS.</p>
+              <a href="https://www.github.com/saurxbh/calculator" target="_blank" rel="noopener noreferrer"><button class="btn"><i class="fa fa-github"></i> GitHub</button></a>
+            </div>
+          </div>
         </div>
       </section>
       <section></section>
