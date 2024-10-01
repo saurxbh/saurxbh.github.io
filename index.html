@@ -10,7 +10,7 @@
   </head>
   <body>
     <header class="header container">
-      <div>Saurabh</div>
+      <div></div>
       <nav>
         <ul class="header__menu">
           <li><a class="header__link" href="#about">About</a></li>
@@ -24,7 +24,7 @@
               </svg>
             </button>
           </li>
-          <li><a class="header__resume btn" href="#">Resume</a></li>
+          <li><a class="header__resume btn" href="saurabh-kalelkar-resume.pdf" rel="noopener noreferrer" target="_blank">Resume</a></li>
         </ul>
         <button class="header__bars">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -45,9 +45,9 @@
         </p>
         <a class="hero__btn btn" href="#contact">Reach Out</a>
       </section>
-      <section class="about container section">
+      <section class="about container section" id="about">
         <div class="about__content">
-          <h2 class="about__title" id="about">About Me</h2>
+          <h2 class="about__title">About Me</h2>
           <p class="about__description">Hey there! I'm Saurabh. I am a <strong>Software Developer</strong>
             based out of Jersey City, NJ. That't right. Alfred Hitchcock
             in a fez. Garden State FTW!
@@ -86,7 +86,7 @@
         </div>
       </section>
       <section class="timeline container section">
-        <div>
+        <div style="text-align: center;">
           <h3 class="timeline__subtitle">What I have done so far</h3>
           <h2 class="timeline__title">Academic and Professional Experience</h2>
         </div>
@@ -147,9 +147,9 @@
           </div>
           </div>      
       </section>
-      <section class="work container section">
+      <section class="work container section" id="work">
         <div>
-          <h2 class="work__title" id="work">Projects</h2>
+          <h2 class="work__title" >Projects</h2>
           <p class="work__description">Following is some of the stuff I have built. I like playing around with different
             technologies and putting those to use in order to make exciting utilities. Just like any other skill, I believe
             coding is an expertise best honed by continuously practising it. These projects speak to my ability of deftly
@@ -209,7 +209,12 @@
           </div>
         </div>
       </section>
-      <section></section>
+      <section class="contact container section" id="contact">
+        <h2 class="contact__title">Get in touch</h2>
+        <div class="contact__description">If you enjoyed exploring my work, check out my <a href="https://www.github.com/saurxbh" target="_blank" rel="noopener noreferrer">GitHub</a>.
+           We can also connect on <a href="https://www.linkedin.com/in/saurxbh" target="_blank" rel="noopener noreferrer">LinkedIn</a>, or you can just drop me an <a href="mailto:kalelkarsaurabh@gmail.com">email</a>. 
+          I'd love to hear from you!</div>
+      </section>
     </main>
     <footer></footer>
     <script type="module" src="./src/main.js"></script>

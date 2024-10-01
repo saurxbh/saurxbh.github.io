@@ -119,7 +119,7 @@
     
     .work__description {
         font-size: var(--size-lg);
-        padding: 0 auto;
+        /* padding: 0 auto; */
     }
 
     .work__button {
