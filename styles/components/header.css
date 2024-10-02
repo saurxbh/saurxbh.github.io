@@ -1,5 +1,6 @@
 /* Header spacing and fix position during mobile menu*/
 .header {
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;

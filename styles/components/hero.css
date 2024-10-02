@@ -1,5 +1,6 @@
 /* Typewrite effect */
 .hero {
+    width: 80%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -53,7 +54,7 @@
     .hero__title {
         font-size: var(--size-4xl);
     }
-    
+
     .hero__subtitle {
         font-size: var(--size-2xl);
     }
