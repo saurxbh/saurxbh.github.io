@@ -9,6 +9,13 @@
     top: 0;
     left: 0; */
 }
+.header__title {
+    font-size: var(--size-base);
+    color: var(--clr-dark);
+    text-transform: capitalize;
+    font-weight: 700;
+    text-decoration: none;
+}
 
 .header__menu {
     display: none;
@@ -19,6 +26,12 @@
     width: var(--size-2xl);
     height: var(--size-2xl);
     display: block;
+}
+
+@media (min-width: 475px) {
+    .header__title {
+        font-size: var(--size-lg);
+    }
 }
 
 @media (min-width: 768px) {
@@ -65,6 +78,10 @@
 }
 
 @media (min-width: 1024px) {
+    .header__title {
+        font-size: var(--size-xl);
+    }
+
     .header__link {
         font-size: var(--size-base);
     }
