@@ -1,6 +1,5 @@
 /* Typewrite effect */
 .hero {
-    width: 80%;
     text-align: center;
     display: flex;
     flex-direction: column;

@@ -43,6 +43,7 @@ body {
     font-family: 'General Sans', sans-serif;
     background-color: var(--clr-light);
     color: var(--clr-dark);
+    padding-top: 7rem;
 }
 
 img,
