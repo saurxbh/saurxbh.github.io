@@ -6,4 +6,10 @@ import '../styles/components/about.css';
 import '../styles/components/timeline.css';
 import '../styles/components/work.css';
 import '../styles/components/contact.css';
+import '../styles/components/footer.css'
 import '../styles/utils.css';
+
+import footerFunctionalities from './utils/footer';
+
+footerFunctionalities();
+
