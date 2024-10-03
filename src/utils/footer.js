@@ -12,6 +12,17 @@ const footerFunctionalities = () => {
             link.classList.remove('fa-inverse');
         });
     });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Assuming the scroll behavior triggered by # has already happened
+        window.history.replaceState(null, null, window.location.pathname);
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'instant',
+        });
+    });
+    
 }
 
 
