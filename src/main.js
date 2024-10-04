@@ -13,8 +13,10 @@ import '../styles/utils.css';
 import footerFunctionalities from './utils/footer';
 import mobileNav from './utils/mobile-nav';
 import toggleTheme from './utils/toggle-theme'
+import lazyLoading from './utils/lazy-loading';
 
 footerFunctionalities();
 mobileNav();
 toggleTheme();
+lazyLoading();
 
