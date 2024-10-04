@@ -29,6 +29,18 @@ const mobileNav = () => {
             document.body.style.overflowY = 'auto';
         })
     });
+
+    var viewport = window.matchMedia("(min-width: 768px)");
+    viewport.addEventListener('change', () => {
+        isMobileNavOpen = false;
+        mobileNav.style.display = 'none';
+        document.body.style.overflowY = 'auto';
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'instant',
+        });
+    })
 }
 
 export default mobileNav;

@@ -38,6 +38,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.dark-mode {
+    --clr-light: #070a13;
+    --clr-dark: #f1f5f9;
+    --clr-slate400: #94a3b8;
+    --clr-slate600: #94a3b8;
+    --clr-slate800: #94a3b8;
+}
+
 body {
     /* Change as per your needs */
     font-family: 'General Sans', sans-serif;

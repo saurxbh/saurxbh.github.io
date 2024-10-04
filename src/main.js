@@ -12,7 +12,9 @@ import '../styles/utils.css';
 
 import footerFunctionalities from './utils/footer';
 import mobileNav from './utils/mobile-nav';
+import toggleTheme from './utils/toggle-theme'
 
 footerFunctionalities();
 mobileNav();
+toggleTheme();
 
